@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Венгерский за 6 недель</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: #0d1117;
+            color: #c9d1d9;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            max-width: 600px;
+            width: 100%;
+            background-color: #161b22;
+            padding: 25px;
+            border-radius: 12px;
+            border: 1px solid #30363d;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+        }
+        h1 {
+            color: #f0f6fc;
+            font-size: 24px;
+            text-align: center;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+        .btn-pdf {
+            display: block;
+            text-align: center;
+            background-color: #238636;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 14px;
+            border-radius: 6px;
+            font-weight: bold;
+            margin-bottom: 30px;
+            transition: background-color 0.2s;
+        }
+        .btn-pdf:hover {
+            background-color: #2ea043;
+        }
+        .track-list {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .track-item {
+            background-color: #21262d;
+            padding: 15px;
+            border-radius: 8px;
+            border: 1px solid #30363d;
+        }
+        .track-title {
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: #58a6ff;
+        }
+        audio {
+            width: 100%;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Учебный курс: Венгерский язык</h1>
+    
+    <!-- Кнопка для открытия учебника PDF -->
+    <a href="Vengerskyy.pdf" target="_blank" class="btn-pdf">📖 Открыть учебник (PDF)</a>
+
+    <div class="track-list">
+        <!-- Аудиодорожки строго по вашим именам файлов -->
+        <div class="track-item">
+            <div class="track-title">Аудио урок 1</div>
+            <audio controls preload="none">
+                <source src="1 Track 01 (1).mp3" type="audio/mpeg">
+                Ваш браузер не поддерживает плеер.
+            </audio>
+        </div>
+
+        <div class="track-item">
+            <div class="track-title">Аудио урок 2</div>
+            <audio controls preload="none">
+                <source src="1 Track 01 (2).mp3" type="audio/mpeg">
+            </audio>
+        </div>
+
+        <div class="track-item">
+            <div class="track-title">Аудио урок 3</div>
+            <audio controls preload="none">
+                <source src="1 Track 01 (3).mp3" type="audio/mpeg">
+            </audio>
+        </div>
+
+        <div class="track-item">
+            <div class="track-title">Аудио урок 4</div>
+            <audio controls preload="none">
+                <source src="1 Track 01 (4).mp3" type="audio/mpeg">
+            </audio>
+        </div>
+
+        <div class="track-item">
+            <div class="track-title">Аудио урок 5</div>
+            <audio controls preload="none">
+                <source src="1 Track 01 (5).mp3" type="audio/mpeg">
+            </audio>
+        </div>
+
+        <div class="track-item">
+            <div class="track-title">Аудио урок 6</div>
+            <audio controls preload="none">
+                <source src="1 Track 01 (6).mp3" type="audio/mpeg">
+            </audio>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
